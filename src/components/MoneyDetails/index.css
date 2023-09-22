@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+.money-details-item {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  border-radius: 10px;
+
+  padding: 15px;
+}
+.item1 {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.item2 {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.item3 {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+.money-details-item-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.amount {
+  font-size: 26px;
+}

@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.page {
+  padding: 40px;
+  color: #475569;
+  min-height: 100vh;
+  max-height: 100%;
+  font-family: Roboto;
+}
+.welcome-card {
+  border-radius: 10px;
+  padding: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  margin-bottom: 15px;
+  background-size: cover;
+}
+span {
+  color: blue;
+  font-weight: bold;
+}
+.form-and-transaction-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  width: 100%;
+}
+.form-container {
+  width: 40%;
+  height: 500px;
+  border: 1px solid #475569;
+  border-radius: 10px;
+  padding: 40px;
+}
+label {
+  color: #7e858e;
+}
+.input {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+}
+.btn {
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 30px 15px 30px;
+}
+.transaction-container {
+  height: 500px;
+  width: 50%;
+  border: 1px solid #475569;
+  border-radius: 10px;
+  padding: 25px;
+  overflow-y: scroll;
+}
+.list-item {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+}
+.list-title-head {
+  width: 28%;
+  font-weight: bold;
+  margin: 0;
+}
+.list-amount-head {
+  width: 28%;
+  font-weight: bold;
+  margin: 0;
+}
+.list-type-head {
+  width: 44%;
+  font-weight: bold;
+  margin: 0;
+}
+.transaction-list {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list-item {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  padding: 15px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+.list-title {
+  width: 28%;
+
+  margin: 0;
+}
+.list-amount {
+  width: 28%;
+
+  margin: 0;
+}
+.list-type {
+  width: 34%;
+
+  margin: 0;
+}
+.transaction-item-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  cursor: pointer;
+}
+.delete {
+  margin-left: auto;
+  width: 15px;
+  height: 15px;
+}
